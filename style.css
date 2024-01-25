@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: rgb(232, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 100px;
+    max-width: 350px;
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    border-radius: 25px;
+    background: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 62, 142);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.image{
+
+    height: 150px;
+    width: 150px;
+}
+.image-logo{
+    margin-top: 21px;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(62, 62, 142);
+    background: #fff;
+    object-fit: cover;
+    padding: 2px;
+}
+.content{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.content span.one{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(102, 92, 92);
+    font-weight: 600;
+}
+.content span.two{
+    color: rgb(87, 83, 83);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 2px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    
+}
+.icons a{
+    text-decoration: none;
+}
+.fa-brands{
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 6px;
+}
+.icons .fa-facebook-f{
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 9px;
+    font-size:18px;
+    color: #fff;
+    background: rgb(60, 60, 132);
+    object-fit: cover;
+}
+.icons .fa-twitter{
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 9px;
+    font-size:18px;
+    color: #fff;
+    object-fit: cover;
+    background: rgb(33, 103, 243);
+}
+.icons .fa-instagram{
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right:9px;
+    font-size:18px;
+    color: white;
+    object-fit: cover;
+    background: rgb(211, 24, 102);
+}
+.icons .fa-youtube{
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 9px;
+    font-size:18px;
+    color: white;
+    object-fit: cover;
+    background: rgb(230, 8, 8);
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.message a{
+    background:rgb(64, 64, 191);
+    border-radius: 60px;
+    padding: 12px;
+    margin:0 21px 0 21px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.share i{
+    margin: 10px;
+    color: #fff;
+    padding: 1px;
+}
+.share i.fa-heart{
+    color: red;
+}
+.share i.fa-comment{
+    color: blueviolet;
+}
+.share i.fa-share{
+    color: black;
+    transform: rotateY(180deg);
+}
